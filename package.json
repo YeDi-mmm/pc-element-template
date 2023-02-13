@@ -1,0 +1,37 @@
+{
+  "name": "vivue-element",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.2.2",
+    "element-plus": "^2.2.28",
+    "js-cookie": "^3.0.1",
+    "pinia": "^2.0.29",
+    "swiper": "^8.4.7",
+    "vue": "^3.2.45",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-define-config": "^1.14.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-vue": "^9.9.0",
+    "mockjs": "^1.1.0",
+    "sass": "^1.58.0",
+    "unplugin-auto-import": "^0.12.1",
+    "unplugin-vue-components": "^0.22.12",
+    "vite": "^4.1.0",
+    "vite-plugin-mock": "^2.9.6",
+    "vue-eslint-parser": "^9.1.0"
+  }
+}
